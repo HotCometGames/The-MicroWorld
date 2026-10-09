@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4462088580043292351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2914209204939063795}
+  - component: {fileID: 3750155199392796976}
+  - component: {fileID: 4789871846990414900}
+  - component: {fileID: 5383670681669568065}
+  m_Layer: 0
+  m_Name: BossSection1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2914209204939063795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462088580043292351}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3750155199392796976
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462088580043292351}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 26e7ed4daddb7874c8f7f81e85beb5c6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4789871846990414900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462088580043292351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631cbc4ef9ed5554481e0061ad2b6f2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  gameOperatorScript: {fileID: 0}
+  lavaBossPrefab: {fileID: 8816646426237761913, guid: 2f8be43193c92604d8f3af130c0048bd, type: 3}
+  barbedWire: {fileID: 5363961184215081670, guid: 378050b77fb52464491afbe41f3aed6a, type: 3}
+  bossGame: {fileID: 0}
+  bossBar: {fileID: 0}
+  bossText: {fileID: 0}
+  bossHealthBar: {fileID: 0}
+  bossSpawn: {x: 8, y: 0, z: -1}
+  poisonParticles: {fileID: 0}
+  poisonShootParticles: {fileID: 0}
+  poisonParticlesPos: {fileID: 0}
+  poisonShootPartilesPos: {fileID: 0}
+  boss: 1
+  health: 25
+  bossSpawned: 0
+--- !u!68 &5383670681669568065
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462088580043292351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -2.0339437, y: -0.35549423}
+  - {x: -1.6718515, y: -0.3536975}
+  - {x: -1.6074252, y: -0.3360844}
+  - {x: -1.4892848, y: -0.20437425}
+  - {x: -1.4138608, y: -0.17779645}
+  - {x: -1.2795607, y: -0.16956419}
+  - {x: -1.1846969, y: -0.11655171}
+  - {x: -1.0916389, y: -0.09990994}
+  - {x: -0.76200104, y: -0.27459288}
+  - {x: -0.41258305, y: -0.4642099}
+  - {x: -0.16677642, y: -0.6149392}
+  - {x: -0.050410748, y: -0.6242936}
+  - {x: 0.16700405, y: -0.6265009}
+  - {x: 0.26155686, y: -0.6299865}
+  - {x: 0.70971274, y: -0.48916033}
+  - {x: 0.87127507, y: -0.34178734}
+  - {x: 0.89136934, y: -0.18528962}
+  - {x: 0.8080003, y: 0.045299843}
+  - {x: 0.64858866, y: 0.30976403}
+  - {x: 0.56713665, y: 0.41575617}
+  - {x: 0.21941578, y: 0.50803053}
+  - {x: 0.051823676, y: 0.5457716}
+  - {x: -0.20470059, y: 0.5504484}
+  - {x: -0.42872608, y: 0.53713274}
+  - {x: -0.68321997, y: 0.5416088}
+  - {x: -0.9796429, y: 0.47212318}
+  - {x: -1.1510372, y: 0.35253212}
+  - {x: -1.3034209, y: 0.16264653}
+  - {x: -1.4400967, y: 0.101701275}
+  - {x: -1.6521779, y: 0.13632187}
+  - {x: -1.8767272, y: 0.29847544}
+  - {x: -1.9377164, y: 0.38919872}
+  - {x: -2.0188484, y: 0.38713965}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

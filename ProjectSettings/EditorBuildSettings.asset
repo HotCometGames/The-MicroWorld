@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/GalaxyScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/MicroScene.unity
+    guid: 4fb0e001c27a29043a620c3c156504e9
+  - enabled: 1
+    path: Assets/Scenes/Lab.unity
+    guid: b95678aa2a08a984ab0c9c34117d3518
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: d4abedd54347acf4d830558f835efa0c
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: e2c04edacd48dd949accb80ad3ce6dc5
+  m_configObjects: {}
